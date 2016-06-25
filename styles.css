@@ -1,0 +1,70 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif !important;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+span {
+    text-decoration: overline;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.background {
+    position: fixed;
+    z-index: -999;
+    height: 100%;
+    width: 100%;
+    margin: -15px;
+    background-size: cover;
+}
+
+.first-image {
+    background: url("https://static.pexels.com/photos/2752/city-sunny-people-street-large.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.navbar {
+    background-color: #484041;
+    margin: -15px 0px -15px -15px;
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    z-index: 999;
+}
+.navbar > ul {
+    position: absolute;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.navbar li~li {
+    border-left: solid thin darkgrey;
+}
+
+.navbar a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding: 10px 15px;
+    color: lightgrey;
+}
+.navbar a:hover {
+    background-color: #79AEA3;
+}
+
