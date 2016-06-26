@@ -141,8 +141,12 @@ button:hover {
     text-align: center;
 }
 
+.desc li{
+    list-style: circle;
+}
+
 #app {
-    margin-left: 15vh;
+    margin-left: 5vw;
     height: 60vh;
     position: absolute;
     z-index: 1;
@@ -150,7 +154,7 @@ button:hover {
 
 #app-shadow {
     border-radius: 20px;
-    margin-left:20vh;
+    margin-left:8vw;
     height: 60vh;
     width: 32vh;
     transform: translateY(20px);
@@ -159,8 +163,8 @@ button:hover {
 
 #faq {
     background:white;
-    padding:30px;
-    margin: 20vh;
+    padding: 20px;
+    margin: 15vh 15vh 20vh 15vh;
 }
 
 .faq {
@@ -175,6 +179,11 @@ button:hover {
 
 #faq h2 {
     text-align:center;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: 1px solid black;
 }
 
 .question {
@@ -218,13 +227,24 @@ button:hover {
     text-align: center;
     margin-left: 50%;
     top: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 30%);
+}
+
+#contact h2 {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#contact h4 {
+    padding: 25px;
 }
 
 .ask {
     border: none;
     background-color: #FFC857;
     padding: 5vh 10vh;
+    font-size: 1.3em;
 }
 
 .footer {
